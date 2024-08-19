@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Styles/FormInputs.css';
 
-const LabeledInput = ({ label, id, type, placeholder, style}) => {
+const LabeledInput = ({ label, name, value, id, type, placeholder, style}) => {
   return (
     <div className="input-container">
       <label htmlFor={id} className="input-label">{label}</label>
@@ -11,6 +11,8 @@ const LabeledInput = ({ label, id, type, placeholder, style}) => {
         placeholder={placeholder}
         className="input-field"
         style={style}
+        value={value}
+        name={name}
       />
     </div>
   );
