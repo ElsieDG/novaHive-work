@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import '../../Styles/styles.css'
-import Sidebar from '../../components/Sidebar'; // Import the Sidebar component
-import LMSHeader from '../../components/LmsHeader';
-import ItemTable from '../../components/ItemTable';
-import { fetchData } from '../../TestRunData.js/data';
+import Sidebar from '../../components/Student/Sidebar'; // Import the Sidebar component
+import LMSHeader from '../../components/Student/LmsHeader';
+import ItemTable from '../../components/Student/ItemTable';
+import { fetchData } from '../../TestRunData.js/StudentData';
 
 
 function AssignmentPage() {

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import '../../Styles/styles.css'
-import Sidebar from '../../components/Sidebar'; // Import the Sidebar component
-import LMSHeader from '../../components/LmsHeader';
+import Sidebar from '../../components/Student/Sidebar'; // Import the Sidebar component
+import LMSHeader from '../../components/Student/LmsHeader';
 // import NotificationDropdown from '../../components/NotificationDropDown';
-import ItemTable from '../../components/ItemTable';
-import { fetchData } from '../../TestRunData.js/data';
+import ItemTable from '../../components/Student/ItemTable';
+import { fetchData } from '../../TestRunData.js/StudentData';
 
 
 function QuizPage() {

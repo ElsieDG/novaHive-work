@@ -1,7 +1,7 @@
 import React, { useState} from "react";
-import Sidebar from '../../components/Sidebar'; // Import the Sidebar component
-import LMSHeader from '../../components/LmsHeader';
-import { fetchData } from '../../TestRunData.js/data'
+import Sidebar from '../../components/Student/Sidebar'; // Import the Sidebar component
+import LMSHeader from '../../components/Student/LmsHeader';
+import { fetchData } from '../../TestRunData.js/StudentData'
 import '../../Styles/Student/StudentProfilePage.css'
 
 

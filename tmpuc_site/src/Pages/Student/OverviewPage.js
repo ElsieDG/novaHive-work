@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchData } from '../../TestRunData.js/data';
-import Sidebar from '../../components/Sidebar';
-import LMSHeader from '../../components/LmsHeader';
-import ItemTable from '../../components/ItemTable';
+import { fetchData } from '../../TestRunData.js/StudentData';
+import Sidebar from '../../components/Student/Sidebar';
+import LMSHeader from '../../components/Student/LmsHeader';
+import ItemTable from '../../components/Student/ItemTable';
 import '../../Styles/Student/OverviewPage.css'
 
 const Overview = () => {

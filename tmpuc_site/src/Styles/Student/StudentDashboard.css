@@ -1,0 +1,47 @@
+/* Dashboard.css
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background-color: #b71414;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.edit-dashboard-btn {
+  background-color: #f6b203;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+} */
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.page-title{
+  /* background-color: red; */
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.card-section{
+  margin-top: 40px;
+}
+
+.dashboard-background{
+  background-color: #f9f9f9;
+  height: 100vh;
+}
