@@ -1,5 +1,5 @@
 /*
-This file is a mock datase for the student portal of the LMS.
+This file is a mock database for the student portal of the LMS.
 This Represent the information about a course that the lecturers or Admin would usually fill in
 when adding course, creating assignments etc. It helps simulate how data wouls appear when 
 uploaded by admin/lecturer. This info should be retrived from the database in final project.
@@ -25,7 +25,6 @@ export const fetchData = (type) => {
         department: 'Department of Information Technology',
         program: 'Software engineering',
         programType: 'Professional Diploma',
-
       }
     ],
 
