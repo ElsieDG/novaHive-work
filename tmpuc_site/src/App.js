@@ -8,11 +8,17 @@ import ApplicationForm from './Pages/ApplicationFormPage';
 import ResourcesPage from './Pages/Student/ResourcesPage';
 import AssignmentPage from './Pages/Student/AssignmentPage';
 import NotificationPage from './Pages/Student/NotificationPage';
-import CoursePage from './Pages/Student/CoursePage';
 import Overview from './Pages/Student/OverviewPage';
 import StudentProfile from './Pages/Student/StudentProfilePage';
 import QuizPage from './Pages/Student/QuizzesPage';
 
+import AdminDashboard from './Pages/Admin-Teacher.js/AdminDashboard';
+import CourseManager from './Pages/Admin-Teacher.js/CourseManager';
+import StudentManager from './Pages/Admin-Teacher.js/StudentManager';
+import LecturerManager from './Pages/Admin-Teacher.js/LecturerManager';
+import AdminNotificationPage from './Pages/Admin-Teacher.js/AdminNotificationPage';
+import AdminResourcePage from './Pages/Admin-Teacher.js/AdminResourcePage';
+import AcademicsTable from './Pages/Admin-Teacher.js/AcademicsPage';
 
 function App() {
   return (
@@ -29,10 +35,19 @@ function App() {
           <Route path="/Student/Resources" element={<ResourcesPage />} />
           <Route path="/Student/Assignments" element={<AssignmentPage />} />
           <Route path="/Student/Notifications" element={<NotificationPage />} />
-          <Route path="/:courseId/:pageType" element={<CoursePage />} />
           <Route path="/Student/:courseId/Overview" element={<Overview/>} />
           <Route path="/Student/MyProfile" element={<StudentProfile />} />
           <Route path="/Student/Quizzes" element={<QuizPage />} />
+
+          <Route path="/Admin/Dashboard" element={<AdminDashboard />} />
+          <Route path="/Admin/Course-Manager" element={<CourseManager />} />
+          <Route path="/Admin/Student-Manager" element={<StudentManager />} />
+          <Route path="/Admin/Lecturer-Manager" element={<LecturerManager />} />
+          <Route path="/Admin/Notifications" element={<AdminNotificationPage />} />
+          <Route path="/Admin/Resources" element={<AdminResourcePage />} />
+          <Route path="/Admin/Academics" element={<AcademicsTable />} />
+
+
 
         </Routes>
     </Router>
