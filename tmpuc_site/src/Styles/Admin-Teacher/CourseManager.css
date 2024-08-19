@@ -1,0 +1,74 @@
+.tabcontent {
+  display: none;
+  font-size: 12px;
+  margin-bottom: 50px;
+}
+
+.tabcontent.active {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.admin-table {
+  display: block;
+  flex-direction: column;
+  width: fit-content;
+  border-collapse: collapse;
+  background-color: #ebebeb;
+  overflow-x: auto;
+}
+
+.admin-table-title{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #ddd; /* Add border around table cells */
+  padding: 3px; /* Add padding for better spacing */
+}
+
+.admin-table th {
+  background-color: #f2f2f2; /* Optional: Add background color to table header */
+  text-align: left;
+}
+
+.admin-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Optional: Add background color to even rows */
+}
+
+.admin-table tbody tr:hover {
+  background-color: #ddd; /* Optional: Add hover effect for table rows */
+}
+
