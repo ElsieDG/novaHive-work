@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 // import { Link } from 'react-router-dom';
 import '../../Styles/styles.css'
-import Card from '../../components/Card';
-import Sidebar from '../../components/Sidebar'; // Import the Sidebar component
-import LMSHeader from '../../components/LmsHeader';
-import { fetchData } from '../../TestRunData.js/data';
+import Card from '../../components/Student/Card';
+import Sidebar from '../../components/Student/Sidebar'; // Import the Sidebar component
+import LMSHeader from '../../components/Student/LmsHeader';
+import { fetchData } from '../../TestRunData.js/StudentData';
 
 
 function StudentDashboard() {
