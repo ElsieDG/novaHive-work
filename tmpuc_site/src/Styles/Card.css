@@ -1,4 +1,4 @@
-/* Card.css */
+Card.css
 .card {
   background-color: #fff;
   border-radius: 10px;
@@ -128,3 +128,64 @@
 .see-more a:hover {
   text-decoration: underline;
 }
+
+/* Card.css */
+/* Existing styles */
+
+.dropdown-toggle {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+  position: relative; /* Ensure dropdown positioning is relative to this */
+}
+
+.dropdown-toggle.active {
+  background-color: #e0e0e0; /* Optional: Style for active state */
+}
+
+.dropdown-content {
+  position: relative;
+  top: 100; /* Position it below the toggle button */
+  /* left: 0; */
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10; /* Ensure it appears above other content */
+  max-height: 200px; /* Optional: Set a max height and make it scrollable */
+  overflow-y: auto; /* Enable vertical scroll if needed */
+  margin-right: 50px;
+}
+
+.panel-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.subitem {
+  padding: 5px 0;
+}
+
+.subitem a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  display: block;
+}
+
+.subitem a:hover {
+  background-color: #0012d4be;
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+}
+
+/* Existing styles */
+
+
